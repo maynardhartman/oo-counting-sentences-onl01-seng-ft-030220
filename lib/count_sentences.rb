@@ -17,7 +17,7 @@ class String
 
   def count_sentences
     
-    count = self.split("[.?]")
+    count = self.split(/[\s,?]/)
     binding.pry
     return(count.length)
   end
