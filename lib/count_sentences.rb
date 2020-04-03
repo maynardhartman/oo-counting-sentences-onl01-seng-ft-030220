@@ -16,8 +16,8 @@ class String
   end
 
   def count_sentences
-    delimiter = "/\W+/"
-    count = self.split(delimiter)
+    
+    count = self.split(".")
     binding.pry
     return(count.length)
   end
